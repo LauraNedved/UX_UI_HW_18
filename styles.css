@@ -1,0 +1,109 @@
+body {
+    font-family: "Andika New Basic", sans-serif;
+    margin: 0;
+    }
+
+
+    .inline-block {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        padding: 25px;
+        border: 2px solid blue;
+        background-color: yellow;
+    }
+
+.logo{
+    width:23%;
+    padding:1%;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+
+
+nav{
+    width: 72%;
+    padding: 1%;
+    background-color: #315376;
+}
+
+img {
+    padding-left: 25px;
+    margin-left: 25px;
+    margin-top: 25px;
+    max-width: 275px;
+    max-height: 200px;
+}
+
+p {
+    padding-left: 25px;
+    margin-left: 25px;
+    width:auto
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+li {
+    padding: 10px;
+    margin: left 15px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+h4 {
+    width:fit-content;
+}
+
+.heroImg {
+    max-width: 60% center;
+    background-color: #6a1b2e;
+    padding: 25px;
+}
+
+
+.mySkills {
+    grid-template-columns: 33% 33% 33%;
+    background-color: #315376;
+    text-align:center
+}
+
+.grid-Container {
+    background-color: green;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #315376;
+}
+
+.inline-flex #container { 
+    display: inline-flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    max-width: 33% 33% 33%;
+}
+
+.content {
+    width:500px;
+    margin: 0 auto;
+    background: #315376;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+footer{
+    background-color: #f6f6f6;
+    padding:10px;
+    ;
+}
